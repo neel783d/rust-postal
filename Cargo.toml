@@ -13,13 +13,13 @@ readme = "README.md"
 keywords = ["libpostal", "postal", "addresses"]
 
 [dev-dependencies]
-criterion = "0.2"
+criterion = "0.3"
 
 [dependencies]
-parking_lot = "0.8.0"
+parking_lot = "0.12.1"
 
 [build-dependencies]
-bindgen = "0.60"
+bindgen = "0.68.1"
 
 [[bench]]
 name = "benches"
